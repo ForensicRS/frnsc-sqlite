@@ -2,7 +2,13 @@
 name = "frnsc-sqlite"
 version = "0.1.0"
 edition = "2021"
+authors = ["Samuel Garcés Marín <samuel.garces@protonmail.com>"]
+keywords = ["forensic", "windows", "parser", "sql", "cybersecurity"]
+categories = ["parsing"]
+description = "Sqlite implementation of SqlDb trait of ForensicRS"
+license = "MIT"
+repository = "https://github.com/ForensicRS/frnsc-sqlite"
 
 [dependencies]
-forensic-rs = {"path" = "../forensic-rs"}
+forensic-rs = "0"
 sqlite = "0.30.4"
