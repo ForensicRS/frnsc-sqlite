@@ -1,0 +1,8 @@
+[package]
+name = "frnsc-sqlite"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+forensic-rs = {"path" = "../forensic-rs"}
+sqlite = "0.30.4"
