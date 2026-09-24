@@ -1,0 +1,16 @@
+[package]
+name = "frnsc-sqlite"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.87"
+authors = ["Samuel Garcés Marín <samuel.garces@protonmail.com>"]
+keywords = ["forensic", "sqlite", "browser", "windows", "cybersecurity"]
+categories = ["parsing"]
+description = "Pure rust SQLite database reader, implementing the forensic-rs ForensicDb/FormatFactory traits, with browser-history readers on top"
+license = "MIT"
+repository = "https://github.com/ForensicRS/frnsc-sqlite"
+readme = "README.md"
+exclude = ["/artifacts"]
+
+[dependencies]
+forensic-rs = "0.14"
